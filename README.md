@@ -16,9 +16,9 @@ To clone this repository run the following command:
 
 `git clone https://github.com/henryroeth/apollo18.git`
 
-This will create a directory on your computer called **typescript_game** which will contain the contents of this game.
+This will create a directory on your computer called **apollo18** which will contain the contents of this game.
 
-3. Next, you will need to setup all the libraries the game depends on.  Go to the **typescript_game** directory and run the following command to create a **node_modules** directory and install the needed libraries into it.
+3. Next, you will need to setup all the libraries the game depends on.  Go to the **apollo18** directory and run the following command to create a **node_modules** directory and install the needed libraries into it.
 
 `npm install`
 
@@ -26,8 +26,6 @@ Your game should be all setup.
 
 If you are using Visual Studio Code, you can open the directory and use the node script to start a web server and monitor changes.  You can also do this from the command line by typing:
 
-npm run-script start
-=======
 `npm run start`
 
 
