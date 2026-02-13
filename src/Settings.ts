@@ -40,6 +40,7 @@ export class Settings {
         let myDiv3 = createDiv("SPACE: Shoot");
         let myDiv4 = createDiv("SHIFT: Thrusters");
         let myDiv5 = createDiv("Objective: Collect all of the medallions on each level to advance to the next. You can collect ammo packs and shoot bullets at enemies. You can also thrust upwards with your jetpack and collect fuel packs to fly longer. If you lose all of you lives you are taken back to the beginning of the game.");
+		let myDiv6 = createDiv("====== Press M to toggle this menu! ======");
         this.full.mousePressed(this.toggleFullScreen.bind(this));
         this.menu.child(this.full);
         this.menu.child(myDiv);
@@ -48,6 +49,7 @@ export class Settings {
         this.menu.child(myDiv3);
         this.menu.child(myDiv4);
         this.menu.child(myDiv5);
+        this.menu.child(myDiv6);
         this.menu.hide();
         
     }
