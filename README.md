@@ -1,5 +1,10 @@
 # Typescript Game
 
+## Music and Sound Effects
+[Site of Music](https://opengameart.org/content/fire-level)
+
+[Site of Sound Effects](https://sfbgames.itch.io/chiptone)
+
 ## Setup
 
 1. On your computer you will need to have several pieces of software installed:
